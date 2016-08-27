@@ -1,0 +1,22 @@
+{
+  "name": "full_access",
+  "version": "1.0.0",
+  "description": "",
+  "main": "full_access.jsx",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ScottDuane/FullAccess.git"
+  },
+  "author": "Scott Duane",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ScottDuane/FullAccess/issues"
+  },
+  "homepage": "https://github.com/ScottDuane/FullAccess#readme"
+}
