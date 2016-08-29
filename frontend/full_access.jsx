@@ -1,10 +1,10 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import configureStore from './store/store.js';
+import { Provider } from 'react-redux';
 
 document.addEventListener('DOMContentLoaded', function () {
   const root = document.getElementById('root');
-  console.log("in the listener");
   window.store = configureStore();
-  ReactDOM.render(<App />, root);
+  ReactDOM.render(<Root store={store}/>, root);
 })
